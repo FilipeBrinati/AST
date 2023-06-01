@@ -3,7 +3,7 @@ package lang.ast;
 import java.util.HashMap;
 //import visitors.Visitor; 
 
-public class If extends SuperNode {
+public class If extends Cmd {
       
       private Exp ts;
       private Cmd ifs;
